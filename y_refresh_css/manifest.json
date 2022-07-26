@@ -1,0 +1,22 @@
+{
+	"manifest_version" : 3,
+	"name" : "y_refresh_css",
+	"description" : "Refresh just the css files when clicking F9",
+	"version" : "1.0",
+	"icons" : {
+		"16" : "/images/y16.png",
+		"48" : "/images/y48.png",
+		"128" : "/images/y128.png"
+	},
+	"action" : {
+		"default_icon" : {
+			"16" : "/images/y16.png",
+			"48" : "/images/y48.png",
+			"128" : "/images/y128.png"
+		}
+	},
+	"content_scripts" : [{
+		"matches" : ["http://*/*","https://*/*"],
+		"js" : ["main.js"]
+	}]
+}
