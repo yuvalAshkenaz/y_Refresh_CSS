@@ -1,3 +1,7 @@
+/*! y_Refresh_CSS - v1.0 - 26/07/2022
+* By Yuval Ashkenazi
+* https://github.com/yuvalAshkenaz/y_Refresh_CSS */
+
 document.addEventListener("keyup", function(e){
 	if(e.keyCode == 120){ //F9
 		//Refresh CSS
